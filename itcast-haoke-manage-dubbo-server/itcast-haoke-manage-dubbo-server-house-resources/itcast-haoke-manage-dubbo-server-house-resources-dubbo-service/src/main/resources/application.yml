@@ -1,0 +1,26 @@
+# Spring boot application
+spring:
+  application:
+    name: itcast-haoke-manage-dubbo-server-house-resources
+  # 数据库
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.244.128:3306/haoke?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+    username: root
+    password: root
+
+dubbo:
+  # 服务的扫描包
+  scan:
+    basePackages: cn.itcast.haoke.dubbo.server.api
+  # 应用名称
+  application:
+    name: dubbo-provider-house-resources
+  # 协议以及端口
+  protocol:
+    name: dubbo
+    port: 20881
+  # zk注册中心
+  registry:
+    address: zookeeper://192.168.244.128:2181
+    client: zkclient
