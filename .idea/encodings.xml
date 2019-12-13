@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itcast-haoke-manage-api-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itcast-haoke-manage-dubbo-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service" charset="UTF-8" />
+  </component>
+</project>
