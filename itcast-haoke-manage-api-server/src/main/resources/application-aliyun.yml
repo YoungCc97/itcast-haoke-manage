@@ -1,0 +1,6 @@
+aliyun:
+  endpoint: "http://oss-accelerate.aliyuncs.com"
+  accessKeyId: "LTAI4FuL1qquQgd5qkURfB3x"
+  accessKeySecret: "uMMgQ4T8jjSkZprekSrnNoVN9EaQ2P"
+  bucketName: "itcast-haoke97"
+  urlPrefix: "https://itcast-haoke97.oss-accelerate.aliyuncs.com/"
