@@ -25,4 +25,12 @@ public interface ApiHouseResourcesService {
      * @return
      */
     PageInfo<HouseResources> queryHouseResourcesList(int page, int pageSize, HouseResources queryCondition);
+
+    /**
+     * 根据id查找房源数据
+     *
+     * @param id
+     * @return
+     */
+    HouseResources queryHouseResourcesById(Long id);
 }

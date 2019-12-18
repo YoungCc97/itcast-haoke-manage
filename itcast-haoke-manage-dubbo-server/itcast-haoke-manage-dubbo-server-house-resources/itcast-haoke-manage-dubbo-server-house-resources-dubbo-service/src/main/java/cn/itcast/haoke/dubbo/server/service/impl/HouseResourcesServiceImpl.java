@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Transactional //开启事务
 @Service //这是一个Spring的服务
-public class HouseResourcesServiceImpl extends BaseServiceImpl implements HouseResourcesService {
+public class HouseResourcesServiceImpl extends BaseServiceImpl<HouseResources> implements HouseResourcesService {
 
     /**
      * @param houseResources
@@ -51,5 +51,16 @@ public class HouseResourcesServiceImpl extends BaseServiceImpl implements HouseR
         PageInfo<HouseResources> pageInfo = new PageInfo<HouseResources>(Long.valueOf(iPage.getTotal()).intValue(),page,pageSize,iPage.getRecords());
 
         return pageInfo;
+    }
+
+    /**
+     * 根据id查找房源数据
+     *
+     * @param id
+     * @return
+     */
+    @Override
+    public HouseResources queryHouseResourcesById(Long id) {
+        return super.queryById(id);
     }
 }
