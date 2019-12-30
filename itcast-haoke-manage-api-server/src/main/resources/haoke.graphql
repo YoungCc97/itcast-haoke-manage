@@ -4,6 +4,27 @@ schema {
 
 type HaokeQuery {
     HouseResources(id:Long) : HouseResources
+    HouseResourcesList(page:Int,pageSize:Int,) : TableResult
+    IndexAdList:IndexAdResult
+}
+
+type IndexAdResult {
+    list:[IndexAdResultData]
+}
+
+type IndexAdResultData {
+    original:String
+}
+
+type TableResult {
+    list : [HouseResources]
+    pagination : Pagination
+}
+
+type Pagination {
+    current : Int
+    pageSize : Int
+    total : Int
 }
 
 type HouseResources {

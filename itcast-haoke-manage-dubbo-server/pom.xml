@@ -15,6 +15,8 @@
     <modules>
         <module>itcast-haoke-manage-dubbo-server-house-resources</module>
         <module>itcast-haoke-manage-dubbo-server-generator</module>
+        <module>itcast-haoke-manage-dubbo-server-common</module>
+        <module>itcast-haoke-manage-dubbo-server-ad</module>
     </modules>
 
     <dependencies>

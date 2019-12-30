@@ -1,6 +1,7 @@
 package cn.itcast.haoke.dubbo.server.service.impl;
 
 import cn.itcast.haoke.dubbo.server.pojo.HouseResources;
+import cn.itcast.haoke.dubbo.server.service.BaseServiceImpl;
 import cn.itcast.haoke.dubbo.server.service.HouseResourcesService;
 import cn.itcast.haoke.dubbo.server.vo.PageInfo;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;

@@ -1,4 +1,4 @@
-package cn.itcast.haoke.dubbo.server.service.impl;
+package cn.itcast.haoke.dubbo.server.service;
 
 import cn.itcast.haoke.dubbo.server.mapper.HouseResourcesMapper;
 import cn.itcast.haoke.dubbo.server.pojo.HouseResources;
